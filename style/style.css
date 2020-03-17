@@ -343,7 +343,9 @@ input[type=submit] {
   cursor: pointer;
 }
 
-@media screen and (min-width: 950px){
+
+
+@media screen and (min-device-width: 950px){
 
 .portfolio_item{
 	display: grid;
@@ -393,4 +395,6 @@ header{
 	max-height: 100%
 	margin:auto;
 	
+}
+
 }
