@@ -224,9 +224,6 @@ footer p{
 	
 }
 
-.contact_boxes label{
-}
-
 .contact_boxes input{
 	margin: 1em 0 1em;
 	width: 100%;
@@ -397,4 +394,10 @@ header{
 	
 }
 
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .flip_card {
+  perspective: none; /* Remove this if you don't want the 3D effect */
+}
 }
